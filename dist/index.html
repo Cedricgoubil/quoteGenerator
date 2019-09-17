@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Quotes Generator V2.0</title>
+        <link href="style.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container-fluid text-center"> 
+            <h1><strong>Random Quotes Generator V2.0</strong></h1>
+            <p><strong><em>By Cédric Goubil</em></strong></p>
+            <img src="logo.png">
+            <h4>Choose your theme</h4>
+            <form>
+                <label class="radio-inline">
+                    <input id="sciences" type="radio" name="button" value="sciences"><strong><em>Sciences</em></strong></label>
+                <label class="radio-inline">
+                    <input id="sports" type="radio" name="button" value="sports"><strong><em>Sports</em></strong></label>
+            </form>            
+            <br/>            
+            <h4>How many Quotes would you like to see?</h4>            
+                <select id="quoteslist" name="quantity" required="required">
+                    <option selected="selected" disabled="disabled" hidden="hidden">Number of Quotes</option>
+                    <option value="1">1 Quote</option>
+                    <option value="2">2 Quotes</option>
+                    <option value="3">3 Quotes</option> 
+                    <option value="4">4 Quotes</option>
+                    <option value="5">5 Quotes</option>                   
+                </select>             
+            <button id="button" class="btn-large new-quote-button">Get your Quote</button>           
+                    <p id="quotes"></p>    
+        </div>     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="quotes.js"></script>
+  </body>
+</html>
+           
