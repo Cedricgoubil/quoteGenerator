@@ -1,0 +1,37 @@
+body{
+    background: #94b8b8 !important;   
+}
+
+h1{
+    font-family: calibri !important;
+    font-size: 50px !important;
+}
+
+h4{
+    font-family: calibri !important;
+    font-size: 23px !important;
+}
+
+p{
+    font-family: verdana !important;
+    font-size: 20px;
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+#button{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 5%;   
+}
+
+#quoteslist{
+    margin-bottom: 30px;
+}
+
+
+
+
+
